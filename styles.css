@@ -22,13 +22,34 @@ header {
 
 aside {
 	grid-area: side;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	background-color: black;
+}
+
+.social-icon:focus {
+	outline: 2px solid yellow;
+}
+
+#twitter-icon, 
+#github-icon {
+	height: 3em;
+	width: 3em;
+}
+
+#twitter-path,
+#github-path {
+	height: 100%;
+	width: 100%;
+	fill: yellow;
 }
 
 main {
 	grid-area: main;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 1rem;
 }
 
