@@ -15,9 +15,21 @@ body {
 
 header {
 	grid-area: head;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 	margin: 0;
-	min-height: 1rem;
+	padding: 0 2rem;
 	background-color: black;
+}
+
+header h1,
+header h2 {
+	color: #a5cc5c;
+}
+
+header h1 {
+	margin-right: auto;
 }
 
 aside {
@@ -61,10 +73,8 @@ footer {
 	justify-content: center;
 	align-items: center;
 	margin: 0;
-	min-height: 1rem;
+	padding: 0 2rem;
 	background-color: black;
-	
-	
 }
 
 
