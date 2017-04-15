@@ -22,11 +22,6 @@ header {
 
 aside {
 	grid-area: side;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color: black;
 }
 
 .social-icon:focus {
@@ -62,9 +57,14 @@ section.clip {
 
 footer {
 	grid-area: foot;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	margin: 0;
 	min-height: 1rem;
 	background-color: black;
+	
+	
 }
 
 
