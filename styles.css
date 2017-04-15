@@ -5,7 +5,7 @@
 body {
 	display: grid;
 	grid-template-areas: "head head"
-											 "side main"
+											 "main main"
 											 "foot foot";
 	grid-gap: 2rem;
 	margin: 0;
@@ -30,10 +30,6 @@ header h2 {
 
 header h1 {
 	margin-right: auto;
-}
-
-aside {
-	grid-area: side;
 }
 
 .social-icon:focus {
