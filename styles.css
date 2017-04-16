@@ -42,16 +42,18 @@ main {
 	color: #2F190E;
 }
 
+section {
+	padding: 1rem;
+}
+
 section.clip {
 	border: 4px solid #2F190E;
 	background-color: #becd94;
-	padding: 1rem;
 }
 
 section.info {
 	background-color: #2F190E;
 	color: #becd94;
-	padding: 1rem;
 }
 
 .rancho {
