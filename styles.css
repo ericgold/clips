@@ -134,6 +134,11 @@ footer {
 	width: 100%;
 }
 
+#twitter-icon:hover path,
+#github-icon:hover path {
+	fill: var(--color-primary);
+}
+
 #twitter-path,
 #github-path {
 	fill: var(--color-light);
