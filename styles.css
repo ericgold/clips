@@ -10,7 +10,7 @@ body {
 	grid-gap: 2rem;
 	margin: 0;
 	padding: 0;
-	background-color: #FAF3EF;
+	background-color: #edeadb;
 }
 
 header {
@@ -25,7 +25,7 @@ header {
 
 header h1,
 header h2 {
-	color: #becd94;
+	color: #edeadb;
 }
 
 header h1 {
@@ -47,7 +47,7 @@ header h1 {
 #github-path {
 	height: 100%;
 	width: 100%;
-	fill: #becd94;
+	fill: #edeadb;
 }
 
 main {
