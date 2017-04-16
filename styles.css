@@ -32,24 +32,6 @@ header h1 {
 	margin-right: auto;
 }
 
-.social-icon:focus {
-	fill: #becd94;
-	outline: 2px solid #becd94;
-}
-
-#twitter-icon, 
-#github-icon {
-	height: 3em;
-	width: 3em;
-}
-
-#twitter-path,
-#github-path {
-	height: 100%;
-	width: 100%;
-	fill: #edeadb;
-}
-
 main {
 	grid-area: main;
 	display: grid;
@@ -69,11 +51,40 @@ section.clip {
 footer {
 	grid-area: foot;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
+	height: 6rem;
 	margin: 0;
-	padding: 0 2rem;
+	padding: 0 30%;
 	background-color: #2F190E;
+}
+
+.social-icon {
+	height: 3rem;
+	width: 3rem;}
+
+.social-icon:focus {
+	fill: #becd94;
+	outline: 2px solid #becd94;
+}
+
+#twitter-icon, 
+#github-icon {
+	height: 100%;
+	width: 100%;
+}
+
+#twitter-path,
+#github-path {
+	fill: #edeadb;
+}
+
+#github-path {
+	transform: translate(0.5rem, 0.5rem);
+}
+
+#twitter-path {
+	transform: translate(1rem, 1rem);
 }
 
 
