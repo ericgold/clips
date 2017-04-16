@@ -21,6 +21,7 @@ header {
 	margin: 0;
 	padding: 0 2rem;
 	background-color: #2F190E;
+	font-family: 'Damion', cursive;
 }
 
 header h1,
@@ -46,14 +47,32 @@ section {
 	padding: 1rem;
 }
 
+
+
 section.clip {
 	border: 4px solid #2F190E;
 	background-color: #becd94;
 }
 
+section.clip h2 {
+	font-family: 'Abril Fatface', cursive;
+}
+section.clip p {
+	font-family: sans-serif;
+}
+
 section.info {
 	background-color: #2F190E;
 	color: #becd94;
+}
+
+section.info h2 {
+	font-family: 'Damion', cursive;
+	font-size: 3rem;
+}
+
+section q {
+	font-size: 2rem;
 }
 
 .rancho {
