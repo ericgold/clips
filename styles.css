@@ -20,6 +20,24 @@ body {
 	background-color: var(--color-light);
 }
 
+main a {
+	font-weight: bold;
+	color: var(--color-dark);
+}
+
+main a:hover {
+	color: var(--color-light);
+}
+
+header a {
+	color: inherit;
+	text-decoration: none;
+}
+
+header a:hover {
+	color: var(--color-primary);
+}
+
 header {
 	grid-area: head;
 	display: flex;
@@ -40,7 +58,7 @@ header h1 {
 main {
 	grid-area: main;
 	display: grid;
-	grid-template-columns: 1fr
+	grid-template-columns: 1fr;
 	grid-auto-rows: 1fr;
 	grid-gap: 1rem;
 	padding: 1rem;
@@ -52,7 +70,6 @@ main {
 	}
 
 	.ugajnik {
-		grid-column: 1;
 		grid-row: 6 / 8;
 	}
 
