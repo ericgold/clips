@@ -87,7 +87,7 @@ section.clip a {
 }
 
 section.clip a:hover {
-	color: var(--color-light);
+	color: var(--color-primary);
 }
 
 section.clip.feature {
@@ -96,7 +96,7 @@ section.clip.feature {
 }
 
 section.clip.feature a:hover {
-	color: var(--color-primary);
+	color: var(--color-light);
 }
 
 section.clip h2 {
